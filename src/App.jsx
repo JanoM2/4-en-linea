@@ -58,26 +58,31 @@ function App() {
   };
 
   return (
-    <main className="board">
-      <h1>4 en Linea</h1>
-      <button onClick={resetGame}>Reinicar Juego</button>
-      <section className="game">
-        {board.map((square, index) => {
-          return (
-            <Square key={index} index={index} updateBoard={updateBoard}>
-              {square}
-            </Square>
-          );
-        })}
-      </section>
+    <>
+      <main className="board">
+        <h1>4 en Linea</h1>
+        <button onClick={resetGame}>Reinicar Juego</button>
+        <section className="game">
+          {board.map((square, index) => {
+            return (
+              <Square key={index} index={index} updateBoard={updateBoard}>
+                {square}
+              </Square>
+            );
+          })}
+        </section>
 
-      <section className="turn">
-        <Square isSeletected={turn === TURNS.X}>{TURNS.X}</Square>
-        <Square isSeletected={turn === TURNS.O}>{TURNS.O}</Square>
-      </section>
+        <section className="turn">
+          <Square isSeletected={turn === TURNS.X}>{TURNS.X}</Square>
+          <Square isSeletected={turn === TURNS.O}>{TURNS.O}</Square>
+        </section>
 
-      <WinnerModal resetGame={resetGame} winner={winner}></WinnerModal>
-    </main>
+        <WinnerModal resetGame={resetGame} winner={winner}></WinnerModal>
+      </main>
+      <footer>
+        <h3>Hecho por Jano</h3>
+      </footer>
+    </>
   );
 }
 

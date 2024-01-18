@@ -22,6 +22,12 @@ body {
   min-height: 100vh;
 }
 
+footer h3 {
+  width: 150px;
+  margin: 0 auto;
+  color: #707070;
+}
+
 * {
   padding: 0;
   margin: 0;
