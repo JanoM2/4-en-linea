@@ -14,4 +14,4 @@ npm install
 npm run dev
 ```
 
-### This would run in http://localhost:5173/
+### This will run at http://localhost:5173/
