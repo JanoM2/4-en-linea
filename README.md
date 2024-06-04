@@ -1,11 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 # 4-en-linea
 
 Technologies used:
-- I used React js, JavaScript, Html, Css, localstorage
+- I used Vite, React js and hooks, JavaScript, Css and localstorage
 
 I learned things like:
 - Building dynamic user interfaces, managing state, handling client-side routing, making HTTP requests, writing JavaScript code, structuring and styling web pages, storing data locally in the browser, and integrating backend services.
