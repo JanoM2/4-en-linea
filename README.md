@@ -4,7 +4,7 @@ Technologies used:
 - I used Vite, React js and hooks, JavaScript, Css and localstorage
 
 I learned things like:
-- Building dynamic user interfaces, managing state, handling client-side routing, making HTTP requests, writing JavaScript code, structuring and styling web pages, storing data locally in the browser, and integrating backend services.
+- Building fast applications with Vite, creating dynamic interfaces with React, managing state and side effects using hooks, writing JavaScript code, styling with CSS, and storing data locally in the browser.
 
 📍 Game here: [4 en linea](https://juego4enlinea.netlify.app/)
 
